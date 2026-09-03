@@ -7,4 +7,4 @@ def main_page():
     return render_template('test.html')
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=8000)
